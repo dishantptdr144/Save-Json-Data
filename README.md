@@ -1,7 +1,7 @@
 ## 💾 JSON Database Manager
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=00FF00&center=true&vCenter=true&width=800&lines=Load+JSON+Data;Save+JSON+Data;Update+JSON+Records;Lightweight+Database+System;Python+Powered" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=00FF00&center=true&vCenter=true&width=800&lines=Load+JSON+Data;Save+JSON+Data;Update+JSON+Data;Lightweight+Database+System;Python+Powered" />
 </p>
 
 ---
