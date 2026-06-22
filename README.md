@@ -19,15 +19,21 @@
 ### Load User Data
 
 ```python
-def load_user_data():
+def load_user_data(user_id=None):
     if not os.path.exists(USER_DATA_FILE):
-        return {}
+        return "Not found"
 
     try:
         with open(USER_DATA_FILE, "r", encoding="utf-8") as f:
-            return json.load(f)
-    except:
-        return {}
+            data = json.load(f)
+
+        if user_id is None:
+            return data
+
+        return data.get(str(user_id), "Not found")
+
+    except Exception:
+        return "Not found"
 ```
 
 ### Save User Data
